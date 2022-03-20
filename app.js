@@ -36,3 +36,12 @@ app.post('/',(req,res)=>{
 app.listen(5000,()=>{
     console.debug("listening on 5000")
 })
+
+ const sum=(num1,num2)=>{
+     console.log(num1);
+    return num1+num2;
+}
+
+module.exports ={
+    sum
+}
